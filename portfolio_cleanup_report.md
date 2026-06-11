@@ -114,6 +114,8 @@
 
 - README / docs には API key、secret、token、service role key、個人情報の実値を追加していない
 - Blue-Archive_studentsQize の Swift コード内に既存の Supabase anon key / project URL があるため、RLS と公開範囲の最終確認が必要
+- Blue-Archive_Quiz_Public の公開 HTML / JS に既存の Supabase anon config と Supabase URL があるため、RLS と公開範囲の最終確認が必要
+- deploy-cloudflare-pages.md と OKITOKU- の supabase/README.md には service role / JWT などの語句があるが、手順説明・placeholder・環境変数名としての記載
 - `.env.example` には placeholder のみを記載
 
 ## 手動対応が必要なこと
@@ -122,4 +124,5 @@
 - Pinned repositories の並び替え
 - 各 repo の画面上で About / Topics / README 表示を最終確認
 - Blue-Archive_studentsQize の Supabase anon key が公開前提で問題ないか確認
+- Blue-Archive_Quiz_Public の Supabase anon config が公開前提で問題ないか確認
 - スクリーンショットや demo URL は必要に応じて後日追加

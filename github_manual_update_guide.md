@@ -78,6 +78,7 @@ pin から外す:
 - docs がある
 - `.github` テンプレートがある
 - `.env.example` が placeholder だけになっている
+- 既存の Supabase anon config が公開前提で問題ないか確認
 - About:
   - `Fan-made quiz web app with JavaScript, Supabase/PostgreSQL, ranking, and Cloudflare Pages deployment.`
 - Topics:
@@ -126,6 +127,7 @@ pin から外す:
 - テンプレート文言が残っていない
 - 実装済みと今後予定が混ざっていない
 - API key / secret / token / service role key の実値が README / docs にない
+- Supabase anon key / URL が公開前提の設計であり、RLS で守られている
 - private 対象 repo が public に残っていない
 - profile README が表示されている
 - About / Topics が README 内容と一致している
